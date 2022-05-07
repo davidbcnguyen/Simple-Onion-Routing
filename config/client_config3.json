@@ -1,0 +1,8 @@
+{
+  "ClientId": "client1",
+  "CoordAddr": "10.0.0.8:46000",
+  "WebServerAddr": ":50051",
+  "TracingServerAddr": "20.55.66.62:2389",
+  "Secret": "",
+  "TracingIdentity": "client3"
+}

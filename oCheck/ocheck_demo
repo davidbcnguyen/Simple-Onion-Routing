@@ -1,0 +1,25 @@
+// HOW TO RUN OCHECK (:
+
+package ochecker
+
+func main() {
+	ohNo := NewOCheck()
+
+	startStruct := StartStruct{
+		AckLocalIPAckLocalPort:     "",
+		EpochNonce:                 1,
+		HBeatLocalIPHBeatLocalPort: "",
+	}
+
+	notifyCh, circuitCh, _, err := ohNo.Start(startStruct)
+
+	// Everytime you get a new Router join, you can call MonitorNewServer
+	routerInfo := routerInfo{
+		Addr:     "",
+		RouterId: "",
+	}
+	ohNo.MonitorNewRouter(routerInfo)
+
+	// Everytime the number of active circuits updates, you can call SetNumOfActiveCircuits
+	ohNo.SetNumOfActiveCircuits(n)
+}

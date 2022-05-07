@@ -1,0 +1,11 @@
+
+{
+    "ClientListenAddr": "10.0.0.8:46000",
+    "RouterListenAddr": "10.0.0.8:46001",
+    "OCheckListenAddr": "10.0.0.8:46002",
+    "AckLocalIPAckLocalPort": "10.0.0.8:46003",
+    "HBeatLocalIPHBeatLocalPort": "10.0.0.8:46004",
+    "TracingServerAddr": "20.55.66.62:2389",
+    "Secret": "",
+    "TracingIdentity": "coord"
+}

@@ -1,0 +1,11 @@
+{
+  "RouterId": 6,
+  "ClientListenAddr":"10.0.0.13:45060",
+  "CoordListenAddr":"10.0.0.13:45061",
+  "OCheckAddr":"10.0.0.13:45062",
+  "CoordAddr": "20.55.66.62:46001",
+  "TracingServerAddr": "20.55.66.62:2389",
+  "Secret": "",
+  "TracingIdentity": "router6",
+  "PublicAddr":"20.51.185.189"
+}

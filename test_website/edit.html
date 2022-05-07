@@ -1,0 +1,8 @@
+<h1>Editing</h1>
+
+<p>The IP address is: <b>{{.ClientIP}}</b></p>
+
+<form action="/save/" method="POST">
+    <div><input type="text" name="body" value={{printf "%s" .Body}}></input></div>
+    <div><input type="submit" value="Save"></div>
+</form>

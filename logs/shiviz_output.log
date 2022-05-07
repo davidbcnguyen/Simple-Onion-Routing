@@ -1,0 +1,262 @@
+(?<host>\S*) (?<clock>{.*})\n(?<event>.*)
+
+coord {"coord":1}
+4484083746252012746 CreateTrace {}
+coord {"coord":2}
+4484083746252012746 CoordStart {}
+router1 {"router1":1}
+6604124801264471496 CreateTrace {}
+router1 {"router1":2}
+6604124801264471496 RouterStart {"RouterId":1}
+router1 {"router1":3}
+7190268721175037160 CreateTrace {}
+router1 {"router1":4}
+7190268721175037160 RouterJoining {"RouterId":1}
+router1 {"router1":5}
+7190268721175037160 GenerateTokenTrace {"Token":"p3JvdXRlcjHPY8j3TmU9hOiBp3JvdXRlcjEF"}
+coord {"router1":5, "coord":3}
+7190268721175037160 ReceiveTokenTrace {"Token":"p3JvdXRlcjHPY8j3TmU9hOiBp3JvdXRlcjEF"}
+coord {"coord":4, "router1":5}
+7190268721175037160 RouterJoinRequestRecvd {"RouterId":1}
+coord {"coord":5, "router1":5}
+7190268721175037160 RouterRegistryUpdated {"Routers":[1]}
+coord {"coord":6, "router1":5}
+7190268721175037160 RouterJoinRequestHandled {"RouterId":1}
+coord {"router1":5, "coord":7}
+7190268721175037160 GenerateTokenTrace {"Token":"pWNvb3Jkz2PI905lPYTogqVjb29yZAencm91dGVyMQU="}
+router1 {"coord":7, "router1":6}
+7190268721175037160 ReceiveTokenTrace {"Token":"pWNvb3Jkz2PI905lPYTogqVjb29yZAencm91dGVyMQU="}
+router1 {"router1":7, "coord":7}
+7190268721175037160 RouterJoined {"RouterId":1}
+router2 {"router2":1}
+3061107622924825707 CreateTrace {}
+router2 {"router2":2}
+3061107622924825707 RouterStart {"RouterId":2}
+router2 {"router2":3}
+5295478725297730809 CreateTrace {}
+router2 {"router2":4}
+5295478725297730809 RouterJoining {"RouterId":2}
+router2 {"router2":5}
+5295478725297730809 GenerateTokenTrace {"Token":"p3JvdXRlcjLPSX1R2BECdPmBp3JvdXRlcjIF"}
+coord {"coord":8, "router1":5, "router2":5}
+5295478725297730809 ReceiveTokenTrace {"Token":"p3JvdXRlcjLPSX1R2BECdPmBp3JvdXRlcjIF"}
+coord {"router2":5, "coord":9, "router1":5}
+5295478725297730809 RouterJoinRequestRecvd {"RouterId":2}
+coord {"router2":5, "coord":10, "router1":5}
+5295478725297730809 RouterRegistryUpdated {"Routers":[1,2]}
+coord {"router2":5, "coord":11, "router1":5}
+5295478725297730809 RouterJoinRequestHandled {"RouterId":2}
+coord {"router1":5, "router2":5, "coord":12}
+5295478725297730809 GenerateTokenTrace {"Token":"pWNvb3Jkz0l9UdgRAnT5g6dyb3V0ZXIxBadyb3V0ZXIyBaVjb29yZAw="}
+router2 {"coord":12, "router1":5, "router2":6}
+5295478725297730809 ReceiveTokenTrace {"Token":"pWNvb3Jkz0l9UdgRAnT5g6dyb3V0ZXIxBadyb3V0ZXIyBaVjb29yZAw="}
+router2 {"router2":7, "coord":12, "router1":5}
+5295478725297730809 RouterJoined {"RouterId":2}
+router3 {"router3":1}
+2038243919151998568 CreateTrace {}
+router3 {"router3":2}
+2038243919151998568 RouterStart {"RouterId":3}
+router3 {"router3":3}
+8304460341534223392 CreateTrace {}
+router3 {"router3":4}
+8304460341534223392 RouterJoining {"RouterId":3}
+router3 {"router3":5}
+8304460341534223392 GenerateTokenTrace {"Token":"p3JvdXRlcjPPcz9eroR3bCCBp3JvdXRlcjMF"}
+coord {"coord":13, "router1":5, "router2":5, "router3":5}
+8304460341534223392 ReceiveTokenTrace {"Token":"p3JvdXRlcjPPcz9eroR3bCCBp3JvdXRlcjMF"}
+coord {"coord":14, "router1":5, "router2":5, "router3":5}
+8304460341534223392 RouterJoinRequestRecvd {"RouterId":3}
+coord {"coord":15, "router1":5, "router2":5, "router3":5}
+8304460341534223392 RouterRegistryUpdated {"Routers":[1,2,3]}
+coord {"router2":5, "router3":5, "coord":16, "router1":5}
+8304460341534223392 RouterJoinRequestHandled {"RouterId":3}
+coord {"coord":17, "router1":5, "router2":5, "router3":5}
+8304460341534223392 GenerateTokenTrace {"Token":"pWNvb3Jkz3M/Xq6Ed2wghKdyb3V0ZXIzBaVjb29yZBGncm91dGVyMQWncm91dGVyMgU="}
+router3 {"router3":6, "coord":17, "router1":5, "router2":5}
+8304460341534223392 ReceiveTokenTrace {"Token":"pWNvb3Jkz3M/Xq6Ed2wghKdyb3V0ZXIzBaVjb29yZBGncm91dGVyMQWncm91dGVyMgU="}
+router3 {"coord":17, "router1":5, "router2":5, "router3":7}
+8304460341534223392 RouterJoined {"RouterId":3}
+client1 {"client1":1}
+8836995917212901287 CreateTrace {}
+client1 {"client1":2}
+8836995917212901287 GetOnionRing {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+client1 {"client1":3}
+8836995917212901287 GenerateTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eBp2NsaWVudDED"}
+coord {"coord":18, "router1":5, "router2":5, "router3":5, "client1":3}
+8836995917212901287 ReceiveTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eBp2NsaWVudDED"}
+coord {"router1":5, "router2":5, "router3":5, "client1":3, "coord":19}
+8836995917212901287 OnionRingRequestRcvd {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+coord {"client1":3, "coord":20, "router1":5, "router2":5, "router3":5}
+8836995917212901287 RouterActiveChainCounts {"Counts":[{"RouterId":3,"ActiveChainCount":0},{"RouterId":1,"ActiveChainCount":0},{"RouterId":2,"ActiveChainCount":0}]}
+coord {"coord":21, "router1":5, "router2":5, "router3":5, "client1":3}
+8836995917212901287 OnionRingCreated {"Routers":[3,1,2]}
+coord {"router2":5, "router3":5, "client1":3, "coord":22, "router1":5}
+8836995917212901287 GenerateTokenTrace {"Token":"pWNvb3Jkz3qjUPdfDV+nhadyb3V0ZXIyBadyb3V0ZXIzBadjbGllbnQxA6Vjb29yZBancm91dGVyMQU="}
+client1 {"router2":5, "client1":4, "router3":5, "coord":22, "router1":5}
+8836995917212901287 ReceiveTokenTrace {"Token":"pWNvb3Jkz3qjUPdfDV+nhadyb3V0ZXIyBadyb3V0ZXIzBadjbGllbnQxA6Vjb29yZBancm91dGVyMQU="}
+client1 {"client1":5, "router3":5, "coord":22, "router1":5, "router2":5}
+8836995917212901287 NewOnionRing {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","RouterIds":[3,1,2]}
+client1 {"router2":5, "client1":6, "router3":5, "coord":22, "router1":5}
+8836995917212901287 GenerateTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp3JvdXRlcjMFpWNvb3JkFqdyb3V0ZXIxBadyb3V0ZXIyBadjbGllbnQxBg=="}
+client1 {"router1":5, "router2":5, "client1":7, "router3":5, "coord":22}
+8836995917212901287 CircuitInit {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+client1 {"router3":5, "coord":22, "router1":5, "router2":5, "client1":8}
+8836995917212901287 GenerateTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp2NsaWVudDEIp3JvdXRlcjMFpWNvb3JkFqdyb3V0ZXIxBadyb3V0ZXIyBQ=="}
+router3 {"router1":5, "router2":5, "client1":8, "router3":8, "coord":22}
+8836995917212901287 ReceiveTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp2NsaWVudDEIp3JvdXRlcjMFpWNvb3JkFqdyb3V0ZXIxBadyb3V0ZXIyBQ=="}
+router3 {"router3":9, "coord":22, "router1":5, "router2":5, "client1":8}
+8836995917212901287 RouterCircuitInitRecvd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router3 {"router1":5, "router2":5, "client1":8, "router3":10, "coord":22}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMKpWNvb3JkFqdyb3V0ZXIxBadyb3V0ZXIyBadjbGllbnQxCA=="}
+client1 {"router2":5, "client1":9, "router3":10, "coord":22, "router1":5}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMKpWNvb3JkFqdyb3V0ZXIxBadyb3V0ZXIyBadjbGllbnQxCA=="}
+client1 {"router3":10, "coord":22, "router1":5, "router2":5, "client1":10}
+8836995917212901287 CircuitInitComplete {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+client1 {"coord":22, "router1":5, "router2":5, "client1":11, "router3":10}
+8836995917212901287 GenerateTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp3JvdXRlcjEFp3JvdXRlcjIFp2NsaWVudDELp3JvdXRlcjMKpWNvb3JkFg=="}
+client1 {"client1":12, "router3":10, "coord":22, "router1":5, "router2":5}
+8836995917212901287 CircuitInit {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+client1 {"router1":5, "router2":5, "client1":13, "router3":10, "coord":22}
+8836995917212901287 GenerateTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp2NsaWVudDENp3JvdXRlcjMKpWNvb3JkFqdyb3V0ZXIxBadyb3V0ZXIyBQ=="}
+router3 {"coord":22, "router1":5, "router2":5, "client1":13, "router3":11}
+8836995917212901287 ReceiveTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp2NsaWVudDENp3JvdXRlcjMKpWNvb3JkFqdyb3V0ZXIxBadyb3V0ZXIyBQ=="}
+router3 {"router1":5, "router2":5, "client1":13, "router3":12, "coord":22}
+8836995917212901287 RouterCircuitInitRecvd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+coord {"coord":23, "router1":5, "router2":5, "router3":5, "client1":3}
+4484083746252012746 RouterActiveChainCountUpdate {"RouterId":3,"Old":0,"New":1}
+router3 {"router1":5, "router2":5, "client1":13, "router3":13, "coord":22}
+8836995917212901287 RouterCircuitInitFwd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router3 {"router3":14, "coord":22, "router1":5, "router2":5, "client1":13}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMOpWNvb3JkFqdyb3V0ZXIxBadyb3V0ZXIyBadjbGllbnQxDQ=="}
+router1 {"client1":13, "router1":8, "coord":22, "router3":14, "router2":5}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMOpWNvb3JkFqdyb3V0ZXIxBadyb3V0ZXIyBadjbGllbnQxDQ=="}
+router1 {"router1":9, "coord":22, "router3":14, "router2":5, "client1":13}
+8836995917212901287 RouterCircuitInitRecvd {"RouterId":1,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router1 {"router2":5, "client1":13, "router1":10, "coord":22, "router3":14}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFp3JvdXRlcjMOp3JvdXRlcjIFp2NsaWVudDENp3JvdXRlcjEKpWNvb3JkFg=="}
+client1 {"coord":22, "router1":10, "router2":5, "client1":14, "router3":14}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFp3JvdXRlcjMOp3JvdXRlcjIFp2NsaWVudDENp3JvdXRlcjEKpWNvb3JkFg=="}
+client1 {"coord":22, "router1":10, "router2":5, "client1":15, "router3":14}
+8836995917212901287 CircuitInitComplete {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+client1 {"coord":22, "router1":10, "router2":5, "client1":16, "router3":14}
+8836995917212901287 GenerateTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp3JvdXRlcjIFp2NsaWVudDEQp3JvdXRlcjMOpWNvb3JkFqdyb3V0ZXIxCg=="}
+client1 {"router2":5, "client1":17, "router3":14, "coord":22, "router1":10}
+8836995917212901287 CircuitInit {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+client1 {"coord":22, "router1":10, "router2":5, "client1":18, "router3":14}
+8836995917212901287 GenerateTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp2NsaWVudDESp3JvdXRlcjMOpWNvb3JkFqdyb3V0ZXIxCqdyb3V0ZXIyBQ=="}
+router3 {"router3":15, "coord":22, "router1":10, "router2":5, "client1":18}
+8836995917212901287 ReceiveTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp2NsaWVudDESp3JvdXRlcjMOpWNvb3JkFqdyb3V0ZXIxCqdyb3V0ZXIyBQ=="}
+router3 {"router2":5, "client1":18, "router3":16, "coord":22, "router1":10}
+8836995917212901287 RouterCircuitInitRecvd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+coord {"router2":5, "router3":5, "client1":3, "coord":24, "router1":5}
+4484083746252012746 RouterActiveChainCountUpdate {"RouterId":1,"Old":0,"New":1}
+router3 {"router1":10, "router2":5, "client1":18, "router3":17, "coord":22}
+8836995917212901287 RouterCircuitInitFwd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router3 {"router3":18, "coord":22, "router1":10, "router2":5, "client1":18}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMSpWNvb3JkFqdyb3V0ZXIxCqdyb3V0ZXIyBadjbGllbnQxEg=="}
+router1 {"router2":5, "client1":18, "router1":11, "coord":22, "router3":18}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMSpWNvb3JkFqdyb3V0ZXIxCqdyb3V0ZXIyBadjbGllbnQxEg=="}
+router1 {"coord":22, "router3":18, "router2":5, "client1":18, "router1":12}
+8836995917212901287 RouterCircuitInitRecvd {"RouterId":1,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router1 {"router3":18, "router2":5, "client1":18, "router1":13, "coord":22}
+8836995917212901287 RouterCircuitInitFwd {"RouterId":1,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router1 {"router2":5, "client1":18, "router1":14, "coord":22, "router3":18}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFpWNvb3JkFqdyb3V0ZXIzEqdyb3V0ZXIyBadjbGllbnQxEqdyb3V0ZXIxDg=="}
+router2 {"router2":8, "coord":22, "router1":14, "client1":18, "router3":18}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFpWNvb3JkFqdyb3V0ZXIzEqdyb3V0ZXIyBadjbGllbnQxEqdyb3V0ZXIxDg=="}
+router2 {"router1":14, "client1":18, "router3":18, "router2":9, "coord":22}
+8836995917212901287 RouterCircuitInitRecvd {"RouterId":2,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router2 {"router1":14, "client1":18, "router3":18, "router2":10, "coord":22}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjLPeqNQ918NX6eFp3JvdXRlcjIKpWNvb3JkFqdyb3V0ZXIxDqdjbGllbnQxEqdyb3V0ZXIzEg=="}
+client1 {"client1":19, "router3":18, "coord":22, "router1":14, "router2":10}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjLPeqNQ918NX6eFp3JvdXRlcjIKpWNvb3JkFqdyb3V0ZXIxDqdjbGllbnQxEqdyb3V0ZXIzEg=="}
+client1 {"router3":18, "coord":22, "router1":14, "router2":10, "client1":20}
+8836995917212901287 CircuitInitComplete {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+client1 {"coord":22, "router1":14, "router2":10, "client1":21, "router3":18}
+8836995917212901287 ClientRequest {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","RequestOnion":"t17qifJuoBE6oQ=="}
+client1 {"router1":14, "router2":10, "client1":22, "router3":18, "coord":22}
+8836995917212901287 GenerateTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFpWNvb3JkFqdyb3V0ZXIxDqdyb3V0ZXIyCqdjbGllbnQxFqdyb3V0ZXIzEg=="}
+router3 {"router3":19, "coord":22, "router1":14, "router2":10, "client1":22}
+8836995917212901287 ReceiveTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFpWNvb3JkFqdyb3V0ZXIxDqdyb3V0ZXIyCqdjbGllbnQxFqdyb3V0ZXIzEg=="}
+router3 {"coord":22, "router1":14, "router2":10, "client1":22, "router3":20}
+8836995917212901287 RouterRequestRecvd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","RequestOnion":"t17qifJuoBE6oQ=="}
+coord {"router3":5, "client1":3, "coord":25, "router1":5, "router2":5}
+4484083746252012746 RouterActiveChainCountUpdate {"RouterId":2,"Old":0,"New":1}
+router3 {"client1":22, "router3":21, "coord":22, "router1":14, "router2":10}
+8836995917212901287 RouterRequestFwd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","RequestOnion":"uHG7niBUSoAs/w=="}
+router3 {"client1":22, "router3":22, "coord":22, "router1":14, "router2":10}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp2NsaWVudDEWp3JvdXRlcjMWpWNvb3JkFqdyb3V0ZXIxDqdyb3V0ZXIyCg=="}
+router1 {"router3":22, "router2":10, "client1":22, "router1":15, "coord":22}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp2NsaWVudDEWp3JvdXRlcjMWpWNvb3JkFqdyb3V0ZXIxDqdyb3V0ZXIyCg=="}
+router1 {"router1":16, "coord":22, "router3":22, "router2":10, "client1":22}
+8836995917212901287 RouterRequestRecvd {"RouterId":1,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","RequestOnion":"uHG7niBUSoAs/w=="}
+router1 {"client1":22, "router1":17, "coord":22, "router3":22, "router2":10}
+8836995917212901287 RouterRequestFwd {"RouterId":1,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","RequestOnion":"gU8Fho1uCZj0pw=="}
+router1 {"router2":10, "client1":22, "router1":18, "coord":22, "router3":22}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFp3JvdXRlcjIKp2NsaWVudDEWp3JvdXRlcjESpWNvb3JkFqdyb3V0ZXIzFg=="}
+router2 {"router1":18, "client1":22, "router3":22, "router2":11, "coord":22}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFp3JvdXRlcjIKp2NsaWVudDEWp3JvdXRlcjESpWNvb3JkFqdyb3V0ZXIzFg=="}
+router2 {"client1":22, "router3":22, "router2":12, "coord":22, "router1":18}
+8836995917212901287 RouterRequestRecvd {"RouterId":2,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","RequestOnion":"gU8Fho1uCZj0pw=="}
+router2 {"client1":22, "router3":22, "router2":13, "coord":22, "router1":18}
+8836995917212901287 ExitRouterRequest {"RouterId":2,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","Plaintext":"http://20.83.180.95/view"}
+router2 {"router1":18, "client1":22, "router3":22, "router2":14, "coord":22}
+8836995917212901287 ResponseRelay {"RouterId":2,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","ResponseOnion":"kxEApzWQmWfHlg=="}
+router2 {"coord":22, "router1":18, "client1":22, "router3":22, "router2":15}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjLPeqNQ918NX6eFp3JvdXRlcjIPpWNvb3JkFqdyb3V0ZXIxEqdjbGllbnQxFqdyb3V0ZXIzFg=="}
+router1 {"client1":22, "router1":19, "coord":22, "router3":22, "router2":15}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjLPeqNQ918NX6eFp3JvdXRlcjIPpWNvb3JkFqdyb3V0ZXIxEqdjbGllbnQxFqdyb3V0ZXIzFg=="}
+router1 {"client1":22, "router1":20, "coord":22, "router3":22, "router2":15}
+8836995917212901287 ResponseRelayRecvd {"RouterId":1,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","ResponseOnion":"kxEApzWQmWfHlg=="}
+router1 {"router3":22, "router2":15, "client1":22, "router1":21, "coord":22}
+8836995917212901287 ResponseRelay {"RouterId":1,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","ResponseOnion":"MM1RVxGHzsc9NA=="}
+router1 {"router1":22, "coord":22, "router3":22, "router2":15, "client1":22}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFp3JvdXRlcjEWpWNvb3JkFqdyb3V0ZXIzFqdyb3V0ZXIyD6djbGllbnQxFg=="}
+router3 {"client1":22, "router3":23, "coord":22, "router1":22, "router2":15}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFp3JvdXRlcjEWpWNvb3JkFqdyb3V0ZXIzFqdyb3V0ZXIyD6djbGllbnQxFg=="}
+router3 {"router1":22, "router2":15, "client1":22, "router3":24, "coord":22}
+8836995917212901287 ResponseRelayRecvd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","ResponseOnion":"MM1RVxGHzsc9NA=="}
+router3 {"router1":22, "router2":15, "client1":22, "router3":25, "coord":22}
+8836995917212901287 ResponseRelay {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","ResponseOnion":"ZBKQzGr649nzKQ=="}
+router3 {"client1":22, "router3":26, "coord":22, "router1":22, "router2":15}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMapWNvb3JkFqdyb3V0ZXIxFqdyb3V0ZXIyD6djbGllbnQxFg=="}
+client1 {"router1":22, "router2":15, "client1":23, "router3":26, "coord":22}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMapWNvb3JkFqdyb3V0ZXIxFqdyb3V0ZXIyD6djbGllbnQxFg=="}
+client1 {"router1":22, "router2":15, "client1":24, "router3":26, "coord":22}
+8836995917212901287 ResponseRecvd {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d","ResponseOnion":"ZBKQzGr649nzKQ=="}
+client1 {"router2":15, "client1":25, "router3":26, "coord":22, "router1":22}
+8836995917212901287 CircuitTeardown {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+client1 {"router2":15, "client1":26, "router3":26, "coord":22, "router1":22}
+8836995917212901287 GenerateTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp3JvdXRlcjEWp3JvdXRlcjIPp2NsaWVudDEap3JvdXRlcjMapWNvb3JkFg=="}
+router3 {"coord":22, "router1":22, "router2":15, "client1":26, "router3":27}
+8836995917212901287 ReceiveTokenTrace {"Token":"p2NsaWVudDHPeqNQ918NX6eFp3JvdXRlcjEWp3JvdXRlcjIPp2NsaWVudDEap3JvdXRlcjMapWNvb3JkFg=="}
+router3 {"client1":26, "router3":28, "coord":22, "router1":22, "router2":15}
+8836995917212901287 CircuitTeardownRecvd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router3 {"router2":15, "client1":26, "router3":29, "coord":22, "router1":22}
+8836995917212901287 CircuitTeardownFwd {"RouterId":3,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router3 {"client1":26, "router3":30, "coord":22, "router1":22, "router2":15}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMepWNvb3JkFqdyb3V0ZXIxFqdyb3V0ZXIyD6djbGllbnQxGg=="}
+router1 {"router3":30, "router2":15, "client1":26, "router1":23, "coord":22}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjPPeqNQ918NX6eFp3JvdXRlcjMepWNvb3JkFqdyb3V0ZXIxFqdyb3V0ZXIyD6djbGllbnQxGg=="}
+router1 {"client1":26, "router1":24, "coord":22, "router3":30, "router2":15}
+8836995917212901287 CircuitTeardownRecvd {"RouterId":1,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router1 {"router3":30, "router2":15, "client1":26, "router1":25, "coord":22}
+8836995917212901287 CircuitTeardownFwd {"RouterId":1,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router1 {"client1":26, "router1":26, "coord":22, "router3":30, "router2":15}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFp3JvdXRlcjMep3JvdXRlcjIPp2NsaWVudDEap3JvdXRlcjEapWNvb3JkFg=="}
+router2 {"router2":16, "coord":22, "router1":26, "client1":26, "router3":30}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjHPeqNQ918NX6eFp3JvdXRlcjMep3JvdXRlcjIPp2NsaWVudDEap3JvdXRlcjEapWNvb3JkFg=="}
+router2 {"coord":22, "router1":26, "client1":26, "router3":30, "router2":17}
+8836995917212901287 CircuitTeardownRecvd {"RouterId":2,"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+router2 {"coord":22, "router1":26, "client1":26, "router3":30, "router2":18}
+8836995917212901287 GenerateTokenTrace {"Token":"p3JvdXRlcjLPeqNQ918NX6eFp2NsaWVudDEap3JvdXRlcjMep3JvdXRlcjISpWNvb3JkFqdyb3V0ZXIxGg=="}
+client1 {"client1":27, "router3":30, "coord":22, "router1":26, "router2":18}
+8836995917212901287 ReceiveTokenTrace {"Token":"p3JvdXRlcjLPeqNQ918NX6eFp2NsaWVudDEap3JvdXRlcjMep3JvdXRlcjISpWNvb3JkFqdyb3V0ZXIxGg=="}
+client1 {"client1":28, "router3":30, "coord":22, "router1":26, "router2":18}
+8836995917212901287 CircuitTeardownComplete {"ClientId":"abc584f3-ad0a-48c6-aedf-1f8f45f4640d"}
+coord {"router3":5, "client1":3, "coord":26, "router1":5, "router2":5}
+4484083746252012746 RouterActiveChainCountUpdate {"RouterId":1,"Old":1,"New":0}
+coord {"router1":5, "router2":5, "router3":5, "client1":3, "coord":27}
+4484083746252012746 RouterActiveChainCountUpdate {"RouterId":3,"Old":1,"New":0}
+coord {"client1":3, "coord":28, "router1":5, "router2":5, "router3":5}
+4484083746252012746 RouterActiveChainCountUpdate {"RouterId":2,"Old":1,"New":0}
